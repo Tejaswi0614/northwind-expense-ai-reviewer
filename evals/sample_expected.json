@@ -1,0 +1,41 @@
+[
+  {
+    "case_id": "case_001",
+    "filename": "hotel_receipt.txt",
+    "receipt_text": "Vendor: Marriott Hotel\nCategory: Hotel\nAmount: 185\nDate: 2026-06-10\nBusiness trip accommodation",
+    "employee": {
+      "name": "James Walker",
+      "grade": 6,
+      "department": "Logistics Ops",
+      "trip_purpose": "Client visit",
+      "trip_start": "2026-06-09",
+      "trip_end": "2026-06-12"
+    },
+    "expected_verdict": "Compliant"
+  },
+  {
+    "case_id": "case_002",
+    "filename": "meal_receipt.txt",
+    "receipt_text": "Vendor: Premium Steakhouse\nCategory: Meals\nAmount: 300\nDate: 2026-06-10\nDinner with client",
+    "employee": {
+      "name": "Linda Foster",
+      "grade": 4,
+      "department": "Sales",
+      "trip_purpose": "Client meeting",
+      "trip_start": "2026-06-09",
+      "trip_end": "2026-06-11"
+    },
+    "expected_verdict": "Flagged"
+  },
+  {
+    "case_id": "case_003",
+    "filename": "unknown_receipt.txt",
+    "receipt_text": "Vendor: Unknown\nAmount: 0\nUnclear receipt text",
+    "employee": {
+      "name": "Priya Patel",
+      "grade": 3,
+      "department": "Finance"
+    },
+    "expected_verdict": "Needs Human Review"
+  }
+]
