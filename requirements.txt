@@ -5,5 +5,4 @@ pypdf==4.2.0
 pillow==10.3.0
 pytesseract==0.3.10
 python-dateutil==2.9.0.post0
-ploty
-plotly
+plotly==5.22.0
